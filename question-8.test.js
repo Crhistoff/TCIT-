@@ -1,0 +1,34 @@
+import paddocksManagers from "./question-8";
+
+test("Should be equal to correct answer to total Area: ", () => {
+	expect(paddocksManagers()).toEqual({
+		"PALTOS-2019": {
+			1: "JUAN TAPIA BURGOS",
+			3: "CARLOS PEREZ GONZALEZ",
+			6: "JOAQUIN ANDRADE SANDOVAL",
+		},
+		"NOGALES-2019": { 1: "JUAN TAPIA BURGOS" },
+		"AVELLANOS-2020": {
+			3: "CARLOS PEREZ GONZALEZ",
+			4: "ANDRES VIÑALES CIENFUEGOS",
+			5: "OSCAR PEREZ ZUÑIGA",
+		},
+		"CEREZAS-2021": {
+			2: "EFRAIN SOTO VERA",
+			6: "JOAQUIN ANDRADE SANDOVAL",
+		},
+		"PALTOS-2020": { 3: "CARLOS PEREZ GONZALEZ" },
+		"AVELLANOS-2017": { 5: "OSCAR PEREZ ZUÑIGA" },
+		"AVELLANOS-2018": {
+			2: "EFRAIN SOTO VERA",
+			3: "CARLOS PEREZ GONZALEZ",
+		},
+		"CEREZAS-2020": { 2: "EFRAIN SOTO VERA" },
+		"NOGALES-2018": { 4: "ANDRES VIÑALES CIENFUEGOS" },
+		"PALTOS-2018": { 5: "OSCAR PEREZ ZUÑIGA" },
+		"CEREZAS-2019": { 2: "EFRAIN SOTO VERA" },
+		"PALTOS-2029": { 1: "JUAN TAPIA BURGOS" },
+		"CEREZAS-2010": { 5: "OSCAR PEREZ ZUÑIGA" },
+		"AVELLANOS-2012": { 6: "JOAQUIN ANDRADE SANDOVAL" },
+	});
+});

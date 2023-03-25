@@ -1,0 +1,24 @@
+import farmManagerPaddocks from "./question-7";
+
+test("Should be equal to correct answer to total Area: ", () => {
+	expect(farmManagerPaddocks()).toEqual({
+		"JOAQUIN ANDRADE SANDOVAL": ["AGRICOLA SANTA ANA"],
+		"JUAN TAPIA BURGOS": ["FORESTAL Y AGRICOLA LO ENCINA", "VINA SANTA PAULA"],
+		"OSCAR PEREZ ZUÑIGA": [
+			"AGRICOLA SANTA ANA",
+			"FORESTAL Y AGRICOLA LO ENCINA",
+			"VINA SANTA PAULA",
+		],
+		"EFRAIN SOTO VERA": [
+			"AGRICOLA SANTA ANA",
+			"FORESTAL Y AGRICOLA LO ENCINA",
+			"VINA SANTA PAULA",
+		],
+		"CARLOS PEREZ GONZALEZ": [
+			"AGRICOLA SANTA ANA",
+			"FORESTAL Y AGRICOLA LO ENCINA",
+			"VINA SANTA PAULA",
+		],
+		"ANDRES VIÑALES CIENFUEGOS": ["FORESTAL Y AGRICOLA LO ENCINA"],
+	});
+});
